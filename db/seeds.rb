@@ -7,3 +7,14 @@
 #   ["Action", "Comedy", "Drama", "Horror"].each do |genre_name|
 #     MovieGenre.find_or_create_by!(name: genre_name)
 #   end
+
+
+# 30.times do
+#   author = Faker:Book.title
+#   title = Faker:Book.author
+#   ibsn = ""
+#   13.times do
+#     ibsn += (rand(0...9)).to_s
+#   end
+#   Book.new(title: title, author: author, ibsn: ibsn)
+# end
